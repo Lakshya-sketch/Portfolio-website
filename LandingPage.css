@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.nav-bar {
+    width: 100%;
+    height: 10vh;
+    background-color: #4B88FF;
+    display: flex;
+}
+
+.logo {
+    color: white;
+    font-size: 3rem;
+    margin-top: 0.5vh;
+    margin-left: 2vw;
+}
+
+.background {
+    margin-top: 0;
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('landingpagebackground.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: absolute; 
+    z-index: -2; 
+}
+
+.home{
+    margin-top: 3vh;
+    margin-left: 40vw;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+.Our-presets{
+    margin-top: 3vh;
+    margin-left: 5vw;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.profile{
+    margin-top: 1.9vh;
+    margin-left: 25vw;
+    margin-right: 2vw;
+    font-size: 2rem;
+    color: white;
+}
+
+.textbox {
+    background-color: black;
+    width: 40%;
+    height: 100vh;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    z-index: -1; 
+    opacity: 0.8; 
+    border-radius: 10%;
+}
+
+.text{
+    color: #ffffff;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    font-size: 1.8rem;
+}
+.head1{
+    color: #FFC5C5;
+    font-size: 4.4rem;
+}
+.head2{
+    color: #6ED3FF;
+    font-size:3.5rem ;
+}
+.head3{
+    color: #6ED3FF;
+    font-size: 3.5rem ;
+}
+.head4{
+    color: #6ED3FF;
+    font-size:3.5rem ;
+}
+.head5{
+    color: #6ED3FF;
+    font-size:3.5rem ;
+}
+
+.formbox {
+    height: 55vh;
+    width: 45vw;
+    z-index: 2;  
+    background-color: #BEBEBE;
+    margin-top: 20vh; 
+    margin-left: 5vw;
+    border-radius: 15%;
+    opacity: 1;
+    border: 4px solid white;
+    position: relative; 
+}
+
+.background-blur {
+    position: absolute;
+    margin-top: -5vh;
+    height: 100%;
+    width: 100%;
+    background-image: url('landingpagebackground.jpg');  
+    background-size: 234% 248%;
+    background-position: -15.2vh -16.3vw;
+    background-repeat: no-repeat;
+    border-radius: 15%; 
+    z-index: 0;
+    filter: blur(3px); 
+    border: 2px solid black;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px; 
+    border: 2px solid #6f6f6f; 
+    font-size: 1rem; 
+    width: 80%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    border-radius: 20%;
+    margin-top: 4vh;
+    opacity: 0.6;
+    
+
+}
+
+input::placeholder {
+    color: #888; 
+}
+
+.addressbox{
+    position: absolute;
+    width: 85.5%;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    margin-top: 1%;
+    margin-left: 4.6%;
+    border: 2px solid #6f6f6f;
+    opacity: 0.6;
+}
+
+.email{
+    position: absolute;
+    width: 85.5%;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    margin-top: 11%;
+    margin-left: 4.6%;
+    border: 2px solid #6f6f6f;
+    opacity: 0.6;
+}
+.dob{
+    position: absolute;
+    width: 85.5%;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    margin-top: 21%;
+    margin-left: 4.6%;
+    border: 2px solid #6f6f6f;
+    opacity: 0.6;
+}
+
+.signup{
+    position: relative;
+    width: 25%;
+    color: white;
+    opacity: 1;
+    margin-top: 21%;
+    margin-left: 4.6%;
+    border: 2px solid #6f6f6f;
+    opacity: 0.6;
+    font-size: 2rem;
+    background-color: white;
+    color: rgb(85, 85, 85);
+    border-radius: 20%;
+    margin-top: 32%;
+    margin-left: 37%;
+}

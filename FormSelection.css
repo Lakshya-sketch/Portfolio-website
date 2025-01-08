@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.body{
+    background-color: black;
+}
+
+.background-pic{
+    width: 100vw;
+    height: 135vh;
+    opacity: 0.8;
+}
+
+.card1{
+    position: absolute;
+    z-index: 10;
+}
+
+.test{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    z-index: +10;
+}

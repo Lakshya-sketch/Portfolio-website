@@ -1,0 +1,98 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(pexels-goumbik-590016.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Form container */
+  form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 60vw;
+    width: 100%;
+  }
+  
+  /* Form labels */
+  form label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+  }
+  
+  /* Input fields */
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Input field focus */
+  form input:focus,
+  form textarea:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Textarea styling */
+  form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* Submit button */
+  form button {
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 500px) {
+    form {
+      padding: 15px 20px;
+    }
+  
+    form label {
+      font-size: 13px;
+    }
+  
+    form input,
+    form textarea {
+      font-size: 13px;
+    }
+  
+    form button {
+      font-size: 13px;
+    }
+  }
+  
